@@ -1,5 +1,31 @@
 section {
-    background: gray;
+    background: rgb(166, 162, 119);
     padding: 20px;
     margin: 10px;
+    border-radius: 20%;
+}
+.imageC {
+    text-align: center;
+}
+.imageC img{
+    border-radius: 50%;
+    border: 3px solid #0e2445;
+}
+h1 {
+    color: #13315f;
+}
+h2{
+    color: #13315f;
+}
+h3{
+    color: #eceeee;
+    text-shadow:2px 2px 5px #0e2445;
+}
+body{
+    font-family: Georgia, 'Times New Roman';
+    background-color: rgb(208, 177, 131);
+}
+p{
+    font-size: 1.1em;
+    line-height: 1.6;
 }
