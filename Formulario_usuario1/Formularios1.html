@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>
+            Formulario de usuario 
+        </title>
+        <link rel="stylesheet" href="estilo2.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Registro deportista</h1>
+            <form>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" name="nombre" required>
+
+               <label for="correo">Correo Institucional:</label> 
+               <input type="email" name="correo" required>
+
+               <label for="idAlumno">ID Alumno:</label>
+               <input type="text" name="idAlumno" required>
+               <label for="contra">Contraseña:</label>
+                <input type="password" name="contra">
+               <label for="edad">Fecha de nacimiento</label>
+               <input type="date" name="edad">
+            <label>Genero</label>
+               <div class="radios">
+                <input type="radio" name="genero" value="masculino">Masculino
+            <input type="radio" name="genero" value="femenino">Femenino<input type="radio" name="genero" value="otro">Otro
+            </div>
+            <label>Deporte:</label>
+            <select>
+                <option value="">Seleccionar:</option>
+                <option value="Futbol soccer">Futbol soccer</option>
+                <option value="Futbol bardas">Futbol bardas</option>
+                <option value="Tenis">Tenis</option>
+                <option value="Box">Box</option>
+                <option value="Beisbol">Beisbol</option>
+                <option value="Basketball">Basketball</option>
+            </select>
+            <label>Sube una imagen practicando tu deporte:</label>
+            <input type="file" name="imagen" accept="image/*">
+               <button type="submit">Registrar</button>
+            <div class="check"> 
+            <input type="checkbox" name="aceptar"><label>"Acepto compartir mis datos"</label></div>
+            </form>
+        </div>
+
+        <footer>
+            <p>Visita mi  GitHub: <a href="https://github.com/KImberliMartinez/AplicacionesWeb" target="_blank">github.com/KiberliMartinez</a></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body{
+ background-color: #98d6e9;
+ text-align: center;
+}
+
+#container{
+margin: auto;
+background-color: #98d6e9;
+width: 80%;
+padding: 10px;
+border-color: black;
+
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+input,select{
+    width: 100%;
+    padding: 8px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    background: blue;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+button:hover{
+    background: rgb(126, 138, 215);
+}
+.radios{
+    display: flex;
+}
+.check {
+display:flex;
+text-align: center;
+}
