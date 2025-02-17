@@ -14,20 +14,27 @@ header {
 
 .container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
     padding: 20px;
+    height: 500px;
 }
 
 .card {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    height: 100px;
+    border: 2px solid burlywood;
+    font-size: 20px;
 }
 
 .card img {
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .card p {
