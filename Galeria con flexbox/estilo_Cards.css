@@ -3,49 +3,45 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #d2cba3;
 }
-
 header {
     background: #b18925;
     color: white;
     padding: 20px;
     font-size: 28px;
 }
-
 .container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    height: 500px;
+    gap: 20px;
 }
-
 .card {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    max-width: 400px;
-    height: 100px;
+    width: 300px;
     border: 2px solid burlywood;
-    font-size: 20px;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    text-align: center;
 }
-
 .card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
-
 .card p {
-    margin-top: 5px;
-    font-size: 14px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
 }
-
 footer {
-    background: #333;
+    background: #b18925;
     color: white;
     padding: 10px;
     margin-top: 20px;
 }
-
