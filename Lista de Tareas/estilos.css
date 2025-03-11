@@ -1,6 +1,7 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -61,4 +62,14 @@ li{
 .tachado {
     text-decoration: line-through; /* Tacha el texto. */
     opacity: 0.6; /* Hace que el texto parezca atenuado. */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #8360a3;
+    color: rgb(0, 6, 10);
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
