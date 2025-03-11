@@ -1,0 +1,64 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#8360a3;
+}
+
+.todo-list{
+    background-color: #8360a3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+input{
+    padding: 10px;
+    border:1px solid #20053a;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.btn{
+    background: #053a15;
+    color: azure;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.btn:hover{
+    background: #053a15;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+
+}
+
+li{
+    padding: 10px;
+    background: #af9bc1;
+    border: 1px solid #8360a3;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tachado {
+    text-decoration: line-through; /* Tacha el texto. */
+    opacity: 0.6; /* Hace que el texto parezca atenuado. */
+}
