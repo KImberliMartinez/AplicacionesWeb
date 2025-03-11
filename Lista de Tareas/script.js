@@ -25,14 +25,28 @@ function addTask() {
             li.classList.toggle("tachado"); // Marca/desmarca la tarea como completada.
         };
     
+         // Crear botón para actualizar
+    const updateButton = document.createElement("button");
+    updateButton.textContent = "Actualizar";
+    updateButton.classList.add("btn");
+    updateButton.addEventListener("click", () => updateTask(li));
+
     // Añade el botón de eliminar como hijo del elemento <li>
     li.appendChild(deleteBtn);
-
+    li.appendChild(updateButton);
+    
     // Agrega el elemento <li> a la lista de tareas
     taskList.appendChild(li);
 
     // Limpia el campo de entrada después de agregar la tarea
     taskInput.value = "";
+}
+// Función para actualizar una tarea
+function updateTask(taskElement) {
+    const newTaskText = prompt("Actualiza la tarea:", taskElement.firstChild.textContent);
+    if (newTaskText !== null) {
+        taskElement.firstChild.textContent = newTaskText.trim();
+    }
 }
 
 
