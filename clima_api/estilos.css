@@ -1,0 +1,40 @@
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #fffafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.card button {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button.actualizar {
+    background-color: #28a745;
+    color: white;
+}
+
+.card button.editar {
+    background-color: #13a3f7;
+    color: black;
+}
+
+.card button.eliminar {
+    background-color: #dc3545;
+    color: white;
+}
